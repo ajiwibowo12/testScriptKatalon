@@ -31,6 +31,12 @@ WebUI.setText(findTestObject('Object Repository/TestScript/Page_Koperasi Syariah
 
 WebUI.click(findTestObject('Object Repository/TestScript/Page_Koperasi Syariah/button_Cooperative Saving_btn btn-default'))
 
+WebUI.click(findTestObject('Object Repository/TestScriptTambahan/Page_Koperasi Syariah/a_Aktif_btn btn-warning'))
+
+WebUI.setText(findTestObject('Object Repository/TestScriptTambahan/Page_Koperasi Syariah/input_Name_title'), "simpanan istri")
+
+WebUI.click(findTestObject('Object Repository/TestScriptTambahan/Page_Koperasi Syariah/button_Save'))
+
 WebUI.click(findTestObject('Object Repository/TestScript/Page_Koperasi Syariah/span_Administrator'))
 
 WebUI.click(findTestObject('Object Repository/TestScript/Page_Koperasi Syariah/a_Logout'))
